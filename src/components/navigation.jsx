@@ -1,6 +1,8 @@
 import React from "react";
-
+import logo from "../Img/logo-dark.png";
+import { useTranslation } from "react-i18next";
 export const Navigation = (props) => {
+  const { t } = useTranslation();
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -18,8 +20,12 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+            <img
+              src={logo}
+              alt="logo"
+              style={{ maxHeight: "70px", width: "auto", marginTop: "-20px" }}
+            />
+          </a>
         </div>
 
         <div
@@ -28,38 +34,39 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Features
+              <a href="#about" className="page-scroll">
+                {t("header.about")}
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
-                About
+              <a href="#features" className="page-scroll">
+                {t("header.portfolio")}
               </a>
             </li>
+
             <li>
               <a href="#services" className="page-scroll">
-                Services
+                {t("header.services")}
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                {t("header.gallery")}
               </a>
             </li>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
+                {t("header.testimonials")}
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#team" className="page-scroll">
-                Team
+                {t("header.team")}
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                {t("header.contact")}
               </a>
             </li>
           </ul>

@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
-
+import { useTranslation } from "react-i18next";
+import "../i18n/i18n";
 const initialState = {
   name: "",
   email: "",
@@ -9,22 +10,30 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
-
+  const { i18n } = useTranslation();
+  const { t } = useTranslation();
+  const [isRTL, setIsRTL] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
+    {
+      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
+    }
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        e.target,
+        "YOUR_PUBLIC_KEY"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -35,6 +44,16 @@ export const Contact = (props) => {
         }
       );
   };
+  useEffect(() => {
+    // Update RTL based on language
+    setIsRTL(i18n.language === "ar");
+    // Update document direction
+    document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
+  }, [i18n.language]);
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <div>
       <div id="contact">
@@ -42,11 +61,8 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+                <h2>{t("contact.title")}</h2>
+                <p>{t("contact.description")}</p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
@@ -123,6 +139,30 @@ export const Contact = (props) => {
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
+            </div>
+          </div>
+          <div className="col-md-12">
+            <div className="row">
+              <div className="social">
+                <ul>
+                  <li>
+                    <button
+                      onClick={() => i18n.changeLanguage("en")}
+                      style={{ background: "none", border: "none", padding: 0 }}
+                    >
+                      <i className="fa fa-globe"></i> EN
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => i18n.changeLanguage("ar")}
+                      style={{ background: "none", border: "none", padding: 0 }}
+                    >
+                      <i className="fa fa-globe"></i> AR
+                    </button>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="col-md-12">

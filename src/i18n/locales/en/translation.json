@@ -1,0 +1,31 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "portfolio": "Portfolio"
+  },
+  "hero": {
+    "title": "Welcome to Our Website",
+    "subtitle": "We provide the best services for your needs",
+    "cta": "Get Started"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a team of professionals dedicated to providing the best services."
+  },
+  "services": {
+    "title": "Our Services",
+    "service1": "Service 1",
+    "service2": "Service 2",
+    "service3": "Service 3"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  }
+} 
