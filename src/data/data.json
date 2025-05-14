@@ -129,25 +129,25 @@
       "name": "Johnathan Doe"
     }
   ],
-  "Team": [
+  "ourClients": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "name":"مطعم الايوان",
       "job": "Director"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
+      "name": "مطعم الايوان",
       "job": "Senior Designer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
+      "name": "مطعم الايوان",
       "job": "Senior Designer"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
+      "name": "مطعم الايوان",
       "job": "Project Manager"
     }
   ],

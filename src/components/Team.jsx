@@ -1,15 +1,12 @@
 import React from "react";
-
+import { useTranslation } from "react-i18next";
 export const Team = (props) => {
+  const { t } = useTranslation();
   return (
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>{t("ourClients.title")}</h2>
         </div>
         <div id="row">
           {props.data
@@ -20,7 +17,6 @@ export const Team = (props) => {
                     <img src={d.img} alt="..." className="team-img" />
                     <div className="caption">
                       <h4>{d.name}</h4>
-                      <p>{d.job}</p>
                     </div>
                   </div>
                 </div>
