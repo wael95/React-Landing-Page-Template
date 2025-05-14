@@ -3,23 +3,99 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "contact": "Contact",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "contact": "Contact"
   },
   "hero": {
-    "title": "Welcome to Our Website",
-    "subtitle": "We provide the best services for your needs",
-    "cta": "Get Started"
+    "title": "Welcome to our website",
+    "subtitle": "We offer the best services for your needs",
+    "cta": "Start now"
   },
   "about": {
-    "title": "About Us",
-    "description": "We are a team of professionals dedicated to providing the best services."
+    "title": "Who we are",
+    "description": "A technical team with deep expertise in the Saudi market, delivering high-quality digital solutions and marketing services. From electronic menu designs to comprehensive web development and marketing services, we create outstanding user experiences tailored to your needs.",
+    "whyChooseUs": "Why NINPUT?",
+    "why1": "The most important thing that distinguishes NINPUT is providing a comprehensive service, where each part of the project is handled by a specialized person, which ensures the accuracy of the work and the excellence of the service. In addition to the constant commitment to providing a service of greater value and return than the price the client pays.",
+    "why2": "High-quality marketing services",
+    "why3": "An outstanding user experience",
+    "why4": "Electronic menu designs",
+    "why5": "Comprehensive web development",
+    "why6": "Multi-channel marketing services"
   },
+  "features": {
+    "title": "Our Features",
+    "feature1": {
+      "icon": "fa-solid fa-globe",
+      "title": "Electronic menu designs",
+      "description": "Electronic menu designs in addition to web sites and multi-channel marketing services."
+    },
+    "feature2": {
+      "icon": "fa-solid fa-globe",
+      "title": "Web site designs",
+      "description": "Web site designs in addition to multi-channel marketing services."
+    },
+    "feature3": {
+      "icon": "fa-solid fa-bullseye",
+      "title": "Multi-channel marketing services",
+      "description": "Multi-channel marketing services in addition to web sites and multi-channel marketing services."
+    },
+    "feature4": {
+      "icon": "fa-solid fa-bullseye",
+      "title": "Fast customer service via NFC",
+      "description": "Multi-channel marketing services in addition to web sites and multi-channel marketing services."
+    }
+  },
+  "How":"How can we help you?",
   "services": {
     "title": "Our Services",
-    "service1": "Service 1",
-    "service2": "Service 2",
-    "service3": "Service 3"
+    "description": "We offer the best services for your needs",
+    "service1": {
+      "icon": "fa-solid fa-bullseye",
+      "title": "Electronic menu designs",
+      "description": "Electronic menu designs in addition to web sites and multi-channel marketing services."
+    },
+    "service2": {
+      "icon": "fa-solid fa-bullseye",
+      "title": "Web site designs",
+      "description": "Web site designs in addition to multi-channel marketing services."
+    },
+    "service3": {
+      "icon": "fa-solid fa-bullseye",
+      "title": "Multi-channel marketing services",
+      "description": "Multi-channel marketing services in addition to web sites and multi-channel marketing services."
+    },
+    "service4": {
+      "icon": "fa-solid fa-bullseye",
+      "title": "Fast customer service via NFC",
+      "description": "Multi-channel marketing services in addition to web sites and multi-channel marketing services."
+    }
+  },
+  "ourClients": {
+    "title": "Our Clients",
+    "description": "Companies and institutions that believe in the importance of sustainable digital solutions and the use of modern technologies in business, which positively contributes to raising the level of work environments and their quality.",
+    "client1": {
+      "name": "Client 1",
+      "description": "General description of client 1"
+    },
+    "client2": {
+      "name": "Client 2",
+      "description": "General description of client 2"
+    },
+    "client3": {
+      "name": "Client 3",
+      "description": "General description of client 3"
+    },
+    "client4": {
+      "name": "Client 4",
+      "description": "General description of client 4"
+    }
+  },
+  "Header": {
+    "titleEn": "NINPUT - Your Digital Solutions Partner",
+    "paragraphEN": "We are a specialized technical team with deep expertise in the Saudi market, delivering high-quality digital solutions and marketing services. From electronic menu designs to comprehensive web development and marketing services, we create outstanding user experiences tailored to your needs.",
+    "title": "Digital solutions tailored to your needs",
+    "paragraph": "We are a specialized technical team with deep expertise in the Saudi market, delivering high-quality digital solutions and marketing services. From electronic menu designs to comprehensive web development and marketing services, we create outstanding user experiences tailored to your needs.",
+    "learnMore": "Learn more"
   },
   "contact": {
     "title": "Contact Us",
@@ -28,4 +104,4 @@
     "message": "Message",
     "send": "Send Message"
   }
-} 
+}

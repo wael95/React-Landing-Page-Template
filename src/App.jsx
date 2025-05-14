@@ -23,7 +23,7 @@ const App = () => {
   const { i18n } = useTranslation();
   const [landingPageData, setLandingPageData] = useState({});
   const [isRTL, setIsRTL] = useState(false);
-
+  const { t } = useTranslation();
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
@@ -48,6 +48,47 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.ourClients} />
       <Contact data={landingPageData.Contact} />
+      <div style={{
+        position: 'fixed',
+        bottom: '20px',
+        right: isRTL ? 'unset' : '20px',
+        left: isRTL ? '20px' : 'unset',
+        zIndex: 1000
+      }}>
+        <div style={{
+          position: 'absolute',
+          bottom: '70px',
+          right: isRTL ? 'unset' : '0',
+          left: isRTL ? '0' : 'unset',
+          backgroundColor: '#fff',
+          padding: '8px 15px',
+          borderRadius: '15px',
+          boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
+          whiteSpace: 'nowrap',
+          fontSize: '14px'
+        }}>
+          {t("How")}
+        </div>
+        <a 
+          href="https://wa.me/966557794839?text=Hello%20Ninput%0AI%20need%20help"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            backgroundColor: '#25D366',
+            color: '#fff',
+            width: '60px',
+            height: '60px',
+            borderRadius: '50%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            boxShadow: '2px 2px 6px rgba(0,0,0,0.4)',
+            fontSize: '35px'
+          }}
+        >
+          <i className="fa fa-whatsapp"></i>
+        </a>
+      </div>
     </div>
   );
 };

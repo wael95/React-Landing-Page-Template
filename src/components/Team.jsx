@@ -7,6 +7,7 @@ export const Team = (props) => {
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>{t("ourClients.title")}</h2>
+          <p>{t("ourClients.description")}</p>
         </div>
         <div id="row">
           {props.data

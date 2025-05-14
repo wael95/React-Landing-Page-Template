@@ -1,7 +1,9 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "titleEn": "NINPUT - Your Digital Solutions Partner",
+    "paragraphEN": "We are a specialized technical team with deep expertise in the Saudi market, delivering high-quality digital solutions and marketing services. From electronic menu designs to comprehensive web development and marketing services, we create outstanding user experiences tailored to your needs.",
+    "titleAr": "NINPUT - للحلول التقنية الرقمية",
+    "paragraphAr": "نحن فريق تقني متخصص مع خبرة مؤهلة في السوق السعودية، تقديم حلول تقنية عالية الجودة وخدمات التسويق. من تصاميم قائمة الطعام إلى تطوير وتسويق الويب الشامل، ننشر تجارب مستخدمين مثالية تناسب احتياجاتك."
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -131,25 +133,21 @@
   ],
   "ourClients": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/clients/01.jpeg",
       "name":"مطعم الايوان",
       "job": "Director"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/clients/02.png",
       "name": "مطعم الايوان",
       "job": "Senior Designer"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "img/clients/03.png",
       "name": "مطعم الايوان",
       "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "مطعم الايوان",
-      "job": "Project Manager"
     }
+
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",

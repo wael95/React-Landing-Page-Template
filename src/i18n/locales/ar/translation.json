@@ -24,8 +24,8 @@
   },
   "features": {
     "title": "ميزاتنا",
-    "feature1": { 
-     "icon": "fa-solid fa-globe",
+    "feature1": {
+      "icon": "fa-solid fa-globe",
       "title": "تصميم قوائم الطعام الإلكترونية",
       "description": "تصميم قوائم الطعام الإلكترونية بالإضافة إلى مواقع الويب وخدمات التسويق المتعددة."
     },
@@ -45,6 +45,7 @@
       "description": "خدمات التسويق المتعددة بالإضافة إلى مواقع الويب وخدمات التسويق المتعددة."
     }
   },
+  "How":"كيف يمكننا مساعدتك؟",
   "services": {
     "title": "خدماتنا",
     "description": "نقدم أفضل الخدمات لاحتياجاتك",
@@ -63,7 +64,7 @@
       "title": "خدمات التسويق المتعددة",
       "description": "خدمات التسويق المتعددة بالإضافة إلى مواقع الويب وخدمات التسويق المتعددة."
     },
-    "service4": { 
+    "service4": {
       "icon": "fa-solid fa-bullseye",
       "title": "خدمة NFC لخدمة الزبائن بشكل أسرع",
       "description": "خدمات التسويق المتعددة بالإضافة إلى مواقع الويب وخدمات التسويق المتعددة."
@@ -71,7 +72,7 @@
   },
   "ourClients": {
     "title": "عملاؤنا",
-    "description": "",
+    "description": "الشركات والمؤسسات التي تؤمن بأهمية حلول الرقمنة المستدامة وتمكين التقنيات الحديثة في الأعمال مما يسهم إيجابيا في رفع مستوى بيئات العمل وجودتها.",
     "client1": {
       "name": "العميل 1",
       "description": "الوصف العام للعميل 1"
@@ -89,6 +90,13 @@
       "description": "الوصف العام للعميل 4"
     }
   },
+  "Header": {
+    "titleEn": "NINPUT - Your Digital Solutions Partner",
+    "paragraphEN": "We are a specialized technical team with deep expertise in the Saudi market, delivering high-quality digital solutions and marketing services. From electronic menu designs to comprehensive web development and marketing services, we create outstanding user experiences tailored to your needs.",
+    "title": "حلول تقنية رقمية تناسب احتياجاتك",
+    "paragraph": "نحن فريق تقني متخصص مع خبرة مؤهلة في السوق السعودية، تقديم حلول تقنية عالية الجودة وخدمات التسويق. من تصاميم قائمة الطعام إلى تطوير وتسويق الويب الشامل، ننشر تجارب مستخدمين مثالية تناسب احتياجاتك.",
+    "learnMore": "تعرف على المزيد"
+  },
   "contact": {
     "title": "اتصل بنا",
     "name": "الاسم",
@@ -96,4 +104,4 @@
     "message": "الرسالة",
     "send": "إرسال الرسالة"
   }
-} 
+}
