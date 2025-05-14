@@ -67,7 +67,7 @@ const App = () => {
           whiteSpace: 'nowrap',
           fontSize: '14px'
         }}>
-          {t("How")}
+          {t("How")}  
         </div>
         <a 
           href="https://wa.me/966557794839?text=Hello%20Ninput%0AI%20need%20help"
