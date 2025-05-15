@@ -439,21 +439,21 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
-/* Team Section */
-#team {
+/* clients Section */
+#clients {
   padding: 100px 0;
 }
-#team h4 {
+#clients h4 {
   margin: 5px 0;
 }
-#team .team-img {
+#clients .clients-img {
   width: 240px;
 }
-#team .thumbnail {
+#clients .thumbnail {
   background: transparent;
   border: 0;
 }
-#team .thumbnail .caption {
+#clients .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }

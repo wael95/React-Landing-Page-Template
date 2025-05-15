@@ -70,7 +70,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder={t("contact.name")}
                         required
                         onChange={handleChange}
                       />
@@ -84,7 +84,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder={t("contact.email")}
                         required
                         onChange={handleChange}
                       />
@@ -98,7 +98,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder={t("contact.message")}
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -106,17 +106,17 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  {t("contact.send")}
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>{t("contact.contactUs")}</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> {t("contact.theAddress")}
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -124,7 +124,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> {t("contact.phone")}
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -132,7 +132,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i className="fa fa-envelope-o"></i> {t("contact.email")}
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>

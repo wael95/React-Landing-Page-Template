@@ -6,7 +6,7 @@ import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
+import { Clients } from "./components/Clients";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -43,10 +43,10 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
+      {/* <Services data={landingPageData.Services} /> */}
       <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.ourClients} />
+      {/* <Testimonials data={landingPageData.Testimonials} /> */}
+      <Clients data={landingPageData.ourClients} />
       <Contact data={landingPageData.Contact} />
       <div style={{
         position: 'fixed',

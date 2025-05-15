@@ -22,49 +22,34 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "menu1",
+      "largeImage": "img/portfolio/1.png",
+      "smallImage": "img/portfolio/1.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "menu2",
+      "largeImage": "img/portfolio/2.png",
+      "smallImage": "img/portfolio/2.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "menu3",
+      "largeImage": "img/portfolio/3.png",
+      "smallImage": "img/portfolio/3.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "menu4",
+      "largeImage": "img/portfolio/4.png",
+      "smallImage": "img/portfolio/4.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "menu5",
+      "largeImage": "img/portfolio/51.png",
+      "smallImage": "img/portfolio/51.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Customized Menu",
+      "largeImage": "img/portfolio/5.png",
+      "smallImage": "img/portfolio/5.png"
     }
   ],
   "Services": [
@@ -134,7 +119,7 @@
   "ourClients": [
     {
       "img": "img/clients/01.jpeg",
-      "name":"مطعم الايوان",
+      "name": "مطعم الايوان",
       "job": "Director"
     },
     {
@@ -147,12 +132,11 @@
       "name": "مطعم الايوان",
       "job": "Senior Designer"
     }
-
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "المملكة العربية السعودية, الرياض،الروضة",
+    "phone": "+966 55 779 4839",
+    "email": "info@ninput.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

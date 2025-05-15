@@ -44,26 +44,27 @@ export const Navigation = (props) => {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a href="#services" className="page-scroll">
                 {t("header.services")}
               </a>
-            </li>
-            {/* <li>
+            </li> */}
+            <li>
               <a href="#portfolio" className="page-scroll">
                 {t("header.gallery")}
               </a>
             </li>
             <li>
+              <a href="#clients" className="page-scroll">
+                {t("header.team")}
+              </a>
+            </li>
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
                 {t("header.testimonials")}
               </a>
             </li> */}
-            {/* <li>
-              <a href="#team" className="page-scroll">
-                {t("header.team")}
-              </a>
-            </li> */}
+            
             <li>
               <a href="#contact" className="page-scroll">
                 {t("header.contact")}

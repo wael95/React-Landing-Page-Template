@@ -1,9 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-export const Team = (props) => {
+export const Clients = (props) => {
   const { t } = useTranslation();
   return (
-    <div id="team" className="text-center">
+    <div id="clients" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>{t("ourClients.title")}</h2>
@@ -12,10 +12,10 @@ export const Team = (props) => {
         <div id="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 clients">
                   <div className="thumbnail">
                     {" "}
-                    <img src={d.img} alt="..." className="team-img" />
+                    <img src={d.img} alt="..." className="clients-img" />
                     <div className="caption">
                       <h4>{d.name}</h4>
                     </div>
